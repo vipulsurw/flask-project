@@ -61,6 +61,9 @@ def get_post(id, check_author=True):
     return post
 
 
+@bp.route('/<int:id>/update', methods=('GET, 'POST'))
+
+
 
 
 
